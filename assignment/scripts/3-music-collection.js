@@ -46,6 +46,8 @@ function findByArtist (artist) {
     console.log(findArtist);
 }
 
-findByArtist('Rihanna');
 
+
+
+findByArtist('Rihanna');
 findByArtist('Jim');
