@@ -21,12 +21,15 @@ console.log(addToCollection('Led Zeppelin IV', 'Led Zeppelin', 1971));
 
 console.log(collection);
 
+
+
 function showCollection (collection) {
     console.log(collection.length);
     for (i=0; i < collection.length; i++) {
-        console.log(collection[i].title);
+        console.log(collection[i].title + ' by ' + collection[i].artist + ' published in year ' + collection[i].yearPublished);
     }
 }
 
+showCollection(collection);
 
-console.log(showCollection(collection));
+// 
