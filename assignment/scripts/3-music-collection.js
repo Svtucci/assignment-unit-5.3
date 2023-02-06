@@ -33,13 +33,17 @@ function showCollection (collection) {
 showCollection(collection);
 
 
+
+
+
 function findByArtist (artist) {
     let findArtist = [];
     for (i=0; i < collection.length; i++) {
-        if (collection[i].artist === artist) {
-            console.log(collection.artist);
-        }
+        if (collection[i].album === artist) {
+            findArtist.push(album);
+        } 
     } 
+console.log(findArtist);
 }
 
-findByArtist(Rihanna);
+findByArtist('Rihanna');
