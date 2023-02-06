@@ -42,9 +42,6 @@ function findByArtist (artist) {
         if (collection[i].artist === artist) {
             findArtist.push(collection[i]);
         } 
-        else; {
-            let findArtist = [];
-        }
     } 
     console.log(findArtist);
 }
