@@ -23,8 +23,10 @@ console.log(collection);
 
 function showCollection (collection) {
     console.log(collection.length);
-    for (i=0; i < collection.length; i++);
-} 
+    for (i=0; i < collection.length; i++) {
+        console.log(collection[i].title);
+    }
+}
 
 
 console.log(showCollection(collection));
