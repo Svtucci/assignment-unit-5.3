@@ -32,4 +32,14 @@ function showCollection (collection) {
 
 showCollection(collection);
 
-// 
+
+function findByArtist (artist) {
+    let findArtist = [];
+    for (i=0; i < collection.length; i++) {
+        if (collection[i].artist === artist) {
+            console.log(collection.artist);
+        }
+    } 
+}
+
+findByArtist(Rihanna);
